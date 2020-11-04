@@ -39,7 +39,7 @@ function draw() {
   
   if (keyWentDown("up")) {
 
-	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:35,y:-35});
+	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:85,y:-85});
 
   }
   
